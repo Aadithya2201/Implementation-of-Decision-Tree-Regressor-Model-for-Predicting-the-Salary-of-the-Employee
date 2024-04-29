@@ -8,10 +8,17 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Import pandas
-2.Import Decision tree classifier
-3.Fit the data in the model
-4.Find the accuracy score
+step 1.Start
+
+step 2.Import pandas
+
+step 3.Import Decision tree classifier
+
+step 4.Fit the data in the model
+
+step 5.Find the accuracy score
+
+step 6.Stop
 ## Program:
 ```
 /*
@@ -22,6 +29,8 @@ import pandas as pd
 data=pd.read_csv("/content/Salary.csv")
 data.head()
 data.info()
+```
+```
 data.isnull().sum()
 from sklearn.preprocessing import LabelEncoder
 le=LabelEncoder()
@@ -46,25 +55,25 @@ dt.predict([[5,6]])
 
 ## Output:
 #### data.head()
-![Screenshot 2023-06-03 182518](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/115707860/74928a7e-5490-4f21-a455-081786ea5ce3)
+![Screenshot 2024-04-29 143854](https://github.com/Aadithya2201/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/145917810/305d2c04-01f2-465e-8953-4acde0713fbf)
 
 #### data.info()
-![Screenshot 2023-06-03 182529](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/115707860/ca791c21-ecb7-4869-95a4-3b833cc925e3)
+![Screenshot 2024-04-29 143901](https://github.com/Aadithya2201/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/145917810/df271736-47a0-447b-ba19-beda38d16a77)
 
 #### isnull() and sum()
-![Screenshot 2023-06-03 182535](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/115707860/e349e8a7-c2f3-4afe-9707-603ee307cd5b)
+![Screenshot 2024-04-29 143910](https://github.com/Aadithya2201/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/145917810/33581fd8-b8df-4ce0-b377-d2559b1b8e4e)
 
 #### data.head() for salary 
-![Screenshot 2023-06-03 182544](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/115707860/fa80dab8-37c3-44c8-86ac-9301b2128636)
+![Screenshot 2024-04-29 143917](https://github.com/Aadithya2201/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/145917810/190a42cc-6c91-4b5e-b48d-3f7be30871fc)
 
 #### MSE value
-![Screenshot 2023-06-03 182650](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/115707860/d48a86c5-919c-47f2-8ffd-8ca51ca8687c)
+![Screenshot 2024-04-29 143724](https://github.com/Aadithya2201/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/145917810/939edbfa-455b-4470-990e-010f7618bb4f)
 
 #### r2 value
-![Screenshot 2023-06-03 182656](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/115707860/c9c2d65d-f9ff-4a10-9a8e-7270c067d025)
+![Screenshot 2024-04-29 143733](https://github.com/Aadithya2201/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/145917810/a994dac2-840f-4b76-a6eb-9ab12ab8a31e)
 
 #### data prediction
-![image](https://github.com/Jaiganesh235/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/118657189/485e2f7f-5060-40f2-8ae2-931a8cd39867)
+![Screenshot 2024-04-29 143740](https://github.com/Aadithya2201/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/145917810/c73ce68c-a5c1-4c3f-80c0-5970c8115ddf)
 
 ## Result:
 Thus the program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee is written and verified using python programming.
