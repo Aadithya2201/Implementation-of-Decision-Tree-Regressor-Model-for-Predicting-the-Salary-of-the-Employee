@@ -59,7 +59,9 @@ dt.predict([[5,6]])
 
 #### data.info()
 ![Screenshot 2024-04-29 143901](https://github.com/Aadithya2201/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/145917810/df271736-47a0-447b-ba19-beda38d16a77)
+```
 
+```
 #### isnull() and sum()
 ![Screenshot 2024-04-29 143910](https://github.com/Aadithya2201/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/145917810/33581fd8-b8df-4ce0-b377-d2559b1b8e4e)
 
